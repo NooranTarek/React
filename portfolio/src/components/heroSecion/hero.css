@@ -16,19 +16,11 @@
 .paragrapgh1{
     font-size: 30px;
     margin-left: 100px;
-    margin-top: -40px;
     color: rgb(58, 53, 53);
 
 
 }
-Button{
-    width: 100px;
-    height: 40px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(39, 37, 37);
-    border-radius: 5px;
 
-}
 .img1 {
     width: 320px;
     height: 400px;

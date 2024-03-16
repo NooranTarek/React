@@ -1,22 +1,5 @@
-/* 
-.card {
-    padding: 15px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.custom-card {
+    height: 100%;
+color: white;
   }
   
-  .card h2 {
-    color: #333;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    color: #666;
-    font-size: 1rem;
-  }
-   */
-
-   Card{
-    color:rgb(0, 0, 0) ;
-   }
