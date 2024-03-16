@@ -1,0 +1,37 @@
+.about-me-section {
+  padding: 50px 0;
+  height: 250px;
+  width: 1400px;
+  margin-left: 150px;
+  background-color: rgb(26,31,34)
+}
+h1 {
+  font-size: 80px;
+
+  margin-left: -900px;
+  color: rgb(255, 255, 255);
+}
+
+.cont {
+  margin-left: 200px;
+  margin-top: -200px;
+}
+h2{
+    margin-left: -240px;
+    color: rgb(255, 255, 255);
+
+
+}
+.p1{
+    margin-left: 340px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+.p2{
+    margin-left: 160px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+
+}
