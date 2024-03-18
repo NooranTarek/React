@@ -1,0 +1,28 @@
+.hero-section {
+    background-image: url('https://t4.ftcdn.net/jpg/05/38/62/77/360_F_538627760_ah9BPKQ0K4d9PnJ6O5UrsPATy1IaY3ne.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    width: 1400px;
+    margin-left: 150px;
+  }
+.header1{
+    font-weight: bolder;
+    margin-left: 50px;
+    margin-top: 70px;
+    color: rgb(58, 53, 53);
+
+}
+.paragrapgh1{
+    font-size: 30px;
+    margin-left: 100px;
+    color: rgb(58, 53, 53);
+
+
+}
+
+.img1 {
+    width: 320px;
+    height: 400px;
+    margin-left: 420px;
+}

@@ -1,0 +1,12 @@
+.custom-card {
+    height: 100%;
+  }
+  
+.even{
+background-color: rgb(33,37,41);
+color: white;
+}
+.odd{
+background-color: white;
+color: black;
+}
