@@ -10,7 +10,12 @@ export default function ToDoList() {
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState("");
 
+  const handleInputChange = (e) => {
+    setNewTask(e.target.value);
+  };
+
   const addNewTask = () => {
+    if (newTask.trim() !== "") {
       const newTaskContent = {
         id: tasks.length + 1,
         text: newTask,
@@ -18,6 +23,7 @@ export default function ToDoList() {
       };
       setTasks([...tasks, newTaskContent]);
       setNewTask("");
+    }
   };
 
   const deleteSpecificTask = (id) => {
@@ -28,14 +34,13 @@ export default function ToDoList() {
   };
 
   const markCompletedTask = (id) => {
-    setTasks(tasks.map(task => {
+    setTasks(tasks.map((task) => {
       if (task.id === id) {
         return { ...task, completed: !task.completed };
       }
       return task;
     }));
   };
-  
 
   return (
     <div className="todo-list">
@@ -45,7 +50,7 @@ export default function ToDoList() {
         <input
           type="text"
           value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
+          onChange={handleInputChange}
           placeholder="Enter new task"
         />
         <ReusableButton
