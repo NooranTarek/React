@@ -15,7 +15,7 @@ export default function Products() {
   useEffect(() => {
     if (status === 'idle') {
       dispatch(productsThunk());
-      console.log(products);
+      // console.log(products);
     }
   }, [dispatch, status]);
 

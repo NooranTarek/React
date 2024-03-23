@@ -24,7 +24,7 @@ const productSlice = createSlice({
       })
       .addCase(productsThunk.fulfilled, (state, action) => {
         state.status = 'succeeded';
-        state.products = action.payload;
+        state.products = action.payload.products;
       })
       .addCase(productsThunk.rejected, (state, action) => {
         state.status = 'failed';
