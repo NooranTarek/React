@@ -1,0 +1,11 @@
+.products{
+    width: 1400px;
+    margin-left: 150px;
+background-image: url('https://img.freepik.com/free-vector/hand-drawn-shopping-pattern-design_23-2149628702.jpg');
+}
+h1{
+    color: rgb(238,135,1);
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+}
